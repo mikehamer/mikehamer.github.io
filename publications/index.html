@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>mikehamer - publications</title>
+  <meta name="description" content="Hi, I'm Mike Hamer, a PhD student with the Institute for Dynamic Systems and Control. I'm researching distributed learning and robot localization.">
+  <meta name="author" content="Mike Hamer">
+
+  <!-- CSS -->
+  <link href="/assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/main.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="http://mikehamer.info/publications/">
+  <link rel="alternate" type="application/atom+xml" title="mikehamer - robotics, programming, control" href="http://mikehamer.info/feed.xml" />
+
+  <!-- IE 9 Fallback-->
+  <!--[if IE 9]>
+    <link href="/assets/css/ie.css" rel="stylesheet">
+  <![endif]-->
+
+  <!-- GOOGLE FONTS -->
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:600,400,200,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,400italic,700,400,300' rel='stylesheet' type='text/css'>
+
+  <!-- FAVICONS -->
+  <link rel="shortcut icon" href="/assets/ico/favicon.ico?v=2" />
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/ico/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/ico/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/ico/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/ico/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/assets/ico/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/ico/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/ico/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/ico/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="/assets/ico/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="/assets/ico/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="/assets/ico/favicon-64x64.png" sizes="64x64" />
+  <link rel="icon" type="image/png" href="/assets/ico/favicon-48x48.png" sizes="48x48" />
+  <link rel="icon" type="image/png" href="/assets/ico/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/assets/ico/favicon-24x24.png" sizes="24x24" />
+  <link rel="icon" type="image/png" href="/assets/ico/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="/assets/ico/favicon-128x128.png" sizes="128x128" />
+  <meta name="msapplication-square70x70logo" content="/assets/ico/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="/assets/ico/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="/assets/ico/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="/assets/ico/mstile-310x310.png" />
+  <meta name="application-name" content="mikehamer - robotics, programming, control"/>
+  <meta name="msapplication-TileColor" content="#ffffff"/>
+</head>
+
+<body>
+	<!-- WRAPPER -->
+	<div class="wrapper">
+
+
+    <!-- NAVBAR -->
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
+						<span class="sr-only">Toggle Navigation</span>
+						<i class="fa fa-bars"></i>
+					</button>
+					<a href="/" class="navbar-brand navbar-logo">
+						<img src="/assets/img/logo/mikehamer-logo-circle-144x144.png" alt="Repute - Responsive Multipurpose Bootstrap Theme">
+					</a>
+				</div>
+				<!-- MAIN NAVIGATION -->
+				<div id="main-nav" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-left">
+
+						
+						
+						<li >
+							<a style="text-transform: uppercase; font-size: 90%" href="/">whoami</a>
+						</li>
+						
+						
+						
+						<li >
+							<a style="text-transform: uppercase; font-size: 90%" href="/publications/#PhD%20Thesis">phd thesis</a>
+						</li>
+						
+						
+						
+						<li class="active">
+							<a style="text-transform: uppercase; font-size: 90%" href="/publications/">publications</a>
+						</li>
+						
+						
+						
+						<li >
+							<a style="text-transform: uppercase; font-size: 90%" href="/uwb-system/">uwb system</a>
+						</li>
+						
+						
+						
+						<li >
+							<a style="text-transform: uppercase; font-size: 90%" href="/swarm-trajectories/">swarm trajectory generation</a>
+						</li>
+						
+						
+
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						
+						
+						<li>
+							<a href="https://github.com/mikehamer"><i class="social-icon fa fa-github"></i></a>
+						</li>
+						
+						
+						<li>
+							<a href="mailto:mike@mikehamer.info"><i class="social-icon fa fa-envelope"></i></a>
+						</li>
+						
+					</ul>
+				</div>
+				<!-- END MAIN NAVIGATION -->
+			</div>
+		</nav>
+		<!-- END NAVBAR -->
+
+
+<!-- BREADCRUMBS -->
+<!-- <div class="page-header">
+	<div class="container">
+		<h1 class="page-title pull-left">Publications</h1>
+		<ol class="breadcrumb">
+			<li>
+				<a href="/">Home</a>
+			</li>
+			<li class="active">
+				Publications
+			</li>
+		</ol>
+	</div>
+</div> -->
+<!-- END BREADCRUMBS -->
+
+<!-- PAGE CONTENT -->
+<div class="page-content">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<!-- BLOG ENTRIES -->
+				<div class="blog medium-thumbnail margin-bottom-30px">
+					
+					
+					<!-- blog post -->
+					<article class="entry-post" id="PhD Thesis">
+						<header class="entry-header">
+							<h2 class="entry-title">
+								
+								PhD Thesis: Scalable Localization and Coordination of Robot Swarms
+								
+							</h2>
+							<div class="meta-line clearfix">
+								<div class="meta-author-category pull-left">
+									<span class="post-author">Michael Hamer</span>
+								</div>
+							</div>
+						</header>
+						<div class="entry-content clearfix">
+							<div class="row">
+								<div class="col-sm-4">
+									
+									<figure class="featured-image">
+											<div class="post-date-info clearfix"><span class="post-month">PhD Thesis</span><span class="post-year">2019</span></div>
+											<img src="/assets/img/papers/PhD.png" class="img-responsive" alt="featured-image">
+									</figure>
+									
+								</div>
+								<div class="col-sm-8">
+									<div class="abstract">
+										<p>As the capabilities of robots and their control systems improve, applications involving the use of large robot swarms in semi-structured environments become increasingly viable. Such applications include the progressive automation of warehouses, factories, mine sites and hospitals. Despite differences in context and application, these problems all require accurate localization and timely coordination of large fleets of robots.</p>
+
+<p>In outdoor applications, satellite-based localization (e.g. GPS) is a core technology driving the development of autonomous vehicles and facilitating the progressive robotization of industries such as agriculture, mining, inspection and freight. Satellite-based localization enables such applications by providing robots with the ability to quickly and independently measure their absolute position. In indoor environments, satellite-based localization is unavailable, making absolute positioning in such environments challenging.</p>
+
+<p>The first contribution of this thesis is the development of a scalable, “indoor GPS”-like system using ultra-wideband radio technology. The topology of this system is similar to that of GPS: fixed-position radio modules installed in the environment regularly transmit radio signals, fulfilling a similar role to that of GPS satellites; while mobile robots move within the coverage area and localize themselves based on the received signals. Much like GPS, the system therefore scales to support an unlimited number of robots. Theoretical developments presented in this thesis are supported by experimental results, including a demonstration of the system’s functionality, in which multiple nano-quadcopters are flown simultaneously within a space.</p>
+
+<p>Generating collision-free trajectories for large swarms of robots operating in close proximity is a similarly challenging problem, since robot trajectories are coupled through collision avoidance constraints, making the problem computationally expensive and time consuming to solve using classical optimization techniques. The second contribution of this thesis is a method to quickly generate such trajectories by leveraging the parallel-computation architecture of modern graphics processing units. The effectiveness and scalability of this method is demonstrated in two simulation-based case studies: a benchmark problem requiring a swarm of 200 quadcopters to traverse a maze; and an example in which a fleet of 100 robots with bicycle dynamics must change their formation. In both cases, the method easily handles nonlinear dynamics and constraints, and generates feasible, collision-free trajectories for the entire swarm in a matter of seconds.</p>
+
+<p>The developments and contributions presented in this thesis provide a pathway towards the application of these technologies to the localization and coordination of large robot swarms in indoor environments.</p>
+
+										<p class="read-more">
+											
+											
+											
+												<a href="/assets/papers/Michael Hamer - Thesis.pdf" class="btn btn-primary">Download <i class="fa fa-long-arrow-down"></i></a>
+											
+											
+											
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+					<!-- end blog post -->
+					<hr />
+					
+					<!-- blog post -->
+					<article class="entry-post" id="IEEE Access">
+						<header class="entry-header">
+							<h2 class="entry-title">
+								
+								<!-- <a href="/papers/2018-12-26-SwarmJournal.html">Fast generation of collision-free trajectories for robot swarms using GPU acceleration</a> -->
+								Fast generation of collision-free trajectories for robot swarms using GPU acceleration
+								
+							</h2>
+							<div class="meta-line clearfix">
+								<div class="meta-author-category pull-left">
+									<span class="post-author">Michael Hamer, Lino Widmer, and Raffaello D’Andrea</span>
+								</div>
+							</div>
+						</header>
+						<div class="entry-content clearfix">
+							<div class="row">
+								<div class="col-sm-4">
+									
+									<figure class="featured-image">
+											<div class="post-date-info clearfix"><span class="post-month">IEEE Access</span><span class="post-year">2018</span></div>
+											<img src="/assets/img/papers/SwarmSystem.png" class="img-responsive" alt="featured-image">
+									</figure>
+									
+								</div>
+								<div class="col-sm-8">
+									<div class="abstract">
+										<p>As the capabilities of robots and their control systems improve, we see an increasing number of use-cases where the simultaneous operation of robots within a space is advantageous. Although trajectories for individual robots can be computed quickly using existing methods, when robots operate simultaneously and in close proximity, the requirement for collision avoidance introduces a coupling between robot trajectories and makes the trajectory generation problem difficult to solve quickly. In this paper we propose a parallelizable formulation of such problems and a method for solving them quickly on modern graphics processing units, using momentum-based gradient descent. We demonstrate the proposed framework in simulation using two case studies: a swarm of 200 quadcopters traversing a maze, and a fleet of 100 bicycle robots changing their formation. In both cases, our method requires just seconds to generate feasible, collision-free trajectories for the entire swarm.</p>
+
+										<p class="read-more">
+											
+												<a href="/swarm-trajectories/" class="btn btn-default">More Information <i class="fa fa-info-circle"></i></a>
+											
+											
+												<a href="https://github.com/mikehamer/swarm-trajectories" class="btn btn-default">Source Code <i class="fa fa-github"></i></a>
+											
+											
+												<a href="https://ieeexplore.ieee.org/document/8587164" class="btn btn-primary">Download <i class="fa fa-long-arrow-down"></i></a>
+											
+											
+											
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+					<!-- end blog post -->
+					<hr />
+					
+					<!-- blog post -->
+					<article class="entry-post" id="IEEE Access">
+						<header class="entry-header">
+							<h2 class="entry-title">
+								
+								<!-- <a href="/papers/2018-04-20-UWBJournal.html">Self-Calibrating Ultra-Wideband Network Supporting Multi-Robot Localization</a> -->
+								Self-Calibrating Ultra-Wideband Network Supporting Multi-Robot Localization
+								
+							</h2>
+							<div class="meta-line clearfix">
+								<div class="meta-author-category pull-left">
+									<span class="post-author">Michael Hamer, and Raffaello D’Andrea</span>
+								</div>
+							</div>
+						</header>
+						<div class="entry-content clearfix">
+							<div class="row">
+								<div class="col-sm-4">
+									
+									<div class="featured-video">
+										<div class="post-date-info clearfix"><span class="post-month">IEEE Access</span><span class="post-year">2018</span></div>
+										<div class="aspect-ratio" style="padding-bottom:56.25%">
+											<iframe src="https://www.youtube.com/embed/ahHcqK1N5fE" allowfullscreen></iframe>
+										</div>
+									</div>
+									
+								</div>
+								<div class="col-sm-8">
+									<div class="abstract">
+										<p>In this paper we concern ourselves with the development of a localization system that permits multiple robots to localize themselves simultaneously within a given area, which has been outfitted with a network of stationary radio modules. We derive a clock synchronization scheme for the radio modules, show how each module is able to compute its position within the network, and finally demonstrate how multiple robots are able to operate simultaneously within the space by using time-difference-of-arrival measurements to localize themselves. Since robots are passive receivers in this system and are able to compute their position based only on received and local information, multiple robots can operate simultaneously and without the need for central coordination or centralized localization infrastructure. All results presented in this paper are supported by experimental results, and the functionality of the system is demonstrated by multiple micro-quadrocopters localizing and flying simultaneously within a space.</p>
+
+										<p class="read-more">
+											
+												<a href="/uwb-system/" class="btn btn-default">More Information <i class="fa fa-info-circle"></i></a>
+											
+											
+											
+												<a href="https://ieeexplore.ieee.org/abstract/document/8344407" class="btn btn-primary">Download <i class="fa fa-long-arrow-down"></i></a>
+											
+											
+											
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+					<!-- end blog post -->
+					<hr />
+					
+					<!-- blog post -->
+					<article class="entry-post" id="IFAC2017">
+						<header class="entry-header">
+							<h2 class="entry-title">
+								
+								<!-- <a href="/papers/2017-01-01-IFAC2017.html">Augmenting Ultra-Wideband Localization with Computer Vision for Accurate Flight</a> -->
+								Augmenting Ultra-Wideband Localization with Computer Vision for Accurate Flight
+								
+							</h2>
+							<div class="meta-line clearfix">
+								<div class="meta-author-category pull-left">
+									<span class="post-author">David Hoeller, Anton Ledergerber, Michael Hamer, and Raffaello D’Andrea</span>
+								</div>
+							</div>
+						</header>
+						<div class="entry-content clearfix">
+							<div class="row">
+								<div class="col-sm-4">
+									
+									<figure class="featured-image">
+											<div class="post-date-info clearfix"><span class="post-month">IFAC</span><span class="post-year">2017</span></div>
+											<img src="/assets/img/papers/Ultra-Wideband with Computer Vision for Accurate Flight.png" class="img-responsive" alt="featured-image">
+									</figure>
+									
+								</div>
+								<div class="col-sm-8">
+									<div class="abstract">
+										<p>Ultra-wideband radio networks enable low-cost, low-computation robot localization in semi-structured environments; however, previous results have shown that these localization systems suffer from spatially-varying measurement biases, leading to a spatially-varying offset between the physical and the estimated position. In tasks where absolute positioning or high tracking accuracy is required, this offset can lead to failure of the task. This paper proposes augmenting ultra-wideband-based localization with visual localization to improve estimation accuracy for critical tasks. It also presents a control strategy that takes the camera measurement process into account, and allows the ultra-wideband system’s measurement biases to be learned and compensated over multiple executions of the task. This bias compensation can be used to improve the accuracy of the task in the case of visual impairment. The effectiveness of the proposed framework is demonstrated by accurately flying a quadrocopter to a landing platform using on-board estimation and control.</p>
+
+										<p class="read-more">
+											
+											
+											
+												<a href="https://www.ethz.ch/content/dam/ethz/special-interest/mavt/dynamic-systems-n-control/idsc-dam/People/antonl/ifacconf17.pdf" class="btn btn-primary">Download <i class="fa fa-long-arrow-down"></i></a>
+											
+											
+											
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+					<!-- end blog post -->
+					<hr />
+					
+					<!-- blog post -->
+					<article class="entry-post" id="ETHZ">
+						<header class="entry-header">
+							<h2 class="entry-title">
+								
+								<!-- <a href="/papers/2015-09-01-CrazyflieModel.html">System Identification of the Crazyflie 2.0 Nano Quadrocopter</a> -->
+								System Identification of the Crazyflie 2.0 Nano Quadrocopter
+								
+							</h2>
+							<div class="meta-line clearfix">
+								<div class="meta-author-category pull-left">
+									<span class="post-author">Julian Förster, Michael Hamer, and Raffaello D’Andrea</span>
+								</div>
+							</div>
+						</header>
+						<div class="entry-content clearfix">
+							<div class="row">
+								<div class="col-sm-4">
+									
+									<figure class="featured-image">
+											<div class="post-date-info clearfix"><span class="post-month">ETH Zürich</span><span class="post-year">2015</span></div>
+											<img src="/assets/img/papers/CrazyflieModelling.jpg" class="img-responsive" alt="featured-image">
+									</figure>
+									
+								</div>
+								<div class="col-sm-8">
+									<div class="abstract">
+										<p>Accurate control and state estimation require an accurate mathematical model of a system. This Bachelor thesis takes a first principles approach to the modelling and identification of the major parameters that govern the flight of a Crazyflie 2.0 nano-quadrocopter. These parameters have since been incorporated into the Crazyflie 2.0 as part of it’s extended Kalman filter, non-linear controller and model-based power-distribution framework.</p>
+
+										<p class="read-more">
+											
+											
+											
+												<a href="https://www.research-collection.ethz.ch/handle/20.500.11850/214143" class="btn btn-primary">Download <i class="fa fa-long-arrow-down"></i></a>
+											
+											
+											
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+					<!-- end blog post -->
+					<hr />
+					
+					<!-- blog post -->
+					<article class="entry-post" id="IROS15">
+						<header class="entry-header">
+							<h2 class="entry-title">
+								
+								<!-- <a href="/papers/2015-07-01-IROS2015.html">A Robot Self-Localization System using One-Way Ultra-Wideband Communication</a> -->
+								A Robot Self-Localization System using One-Way Ultra-Wideband Communication
+								
+							</h2>
+							<div class="meta-line clearfix">
+								<div class="meta-author-category pull-left">
+									<span class="post-author">Anton Ledergerber, Michael Hamer, and Raffaello D’Andrea</span>
+								</div>
+							</div>
+						</header>
+						<div class="entry-content clearfix">
+							<div class="row">
+								<div class="col-sm-4">
+									
+									<figure class="featured-image">
+											<div class="post-date-info clearfix"><span class="post-month">IROS</span><span class="post-year">2015</span></div>
+											<img src="/assets/img/papers/CRLB TDOA Localization.png" class="img-responsive" alt="featured-image">
+									</figure>
+									
+								</div>
+								<div class="col-sm-8">
+									<div class="abstract">
+										<p>A robot localization system is presented that enables a robot to estimate its position within some space by passively receiving ultra-wideband radio signals from fixed-position modules. Communication from the fixed-position modules is one-way, allowing the system to scale to multiple robots. Furthermore, the system’s high position update rate makes it suitable to be used in a feedback control system, and enables the robot to track and perform high-speed, dynamic motions.</p>
+
+<p>This paper describes the algorithmic underpinnings of the system, discusses design decisions and their impact on the performance of the resulting localization, and highlights challenges faced during implementation. Performance of the localization system is experimentally verified through comparison with data from a motion-capture system. Finally, the system’s application to robot self-localization is demonstrated through integration with a quadrocopter.</p>
+
+										<p class="read-more">
+											
+											
+											
+												<a href="/assets/papers/Ledergerber, Hamer, DAndrea - IROS 2015.pdf" class="btn btn-primary">Download <i class="fa fa-long-arrow-down"></i></a>
+											
+											
+											
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+					<!-- end blog post -->
+					<hr />
+					
+					<!-- blog post -->
+					<article class="entry-post" id="ICRA15">
+						<header class="entry-header">
+							<h2 class="entry-title">
+								
+								<!-- <a href="/papers/2015-06-01-ICRA2015.html">Fusing ultra-wideband range measurements with accelerometers and rate gyroscopes for quadrocopter state estimation</a> -->
+								Fusing ultra-wideband range measurements with accelerometers and rate gyroscopes for quadrocopter state estimation
+								
+							</h2>
+							<div class="meta-line clearfix">
+								<div class="meta-author-category pull-left">
+									<span class="post-author">Mark W. Mueller, Michael Hamer, and Raffaello D’Andrea</span>
+								</div>
+							</div>
+						</header>
+						<div class="entry-content clearfix">
+							<div class="row">
+								<div class="col-sm-4">
+									
+									<div class="featured-video">
+										<div class="post-date-info clearfix"><span class="post-month">ICRA</span><span class="post-year">2015</span></div>
+										<div class="aspect-ratio" style="padding-bottom:56.25%">
+											<iframe src="https://www.youtube.com/embed/SsrSuw5VRsQ" allowfullscreen></iframe>
+										</div>
+									</div>
+									
+								</div>
+								<div class="col-sm-8">
+									<div class="abstract">
+										<p>A state estimator for a quadrocopter is presented, using measurements from an accelerometer, angular rate gyroscope, and a set of ultra-wideband ranging radios. The estimator uses an extended aerodynamic model for the quadrocopter, where the full 3D airspeed is observable through accelerometer measurements. The remaining quadrocopter states, including the yaw orientation, are rendered observable by fusing ultra-wideband range measurements, under the assumption of no wind. The estimator is implemented on a standard microcontroller using readily-available, low-cost sensors. Performance is experimentally investigated in a variety of scenarios, where the quadrocopter is flown under feedback control using the estimator output.</p>
+
+										<p class="read-more">
+											
+											
+											
+												<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7139421" class="btn btn-primary">Download <i class="fa fa-long-arrow-down"></i></a>
+											
+											
+												<a href="/assets/papers/Errata - Mueller, Hamer, DAndrea - ICRA 2015.pdf" class="btn btn-danger">Errata <i class="fa fa-exclamation"></i></a>
+											
+											
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+					<!-- end blog post -->
+					<hr />
+					
+					<!-- blog post -->
+					<article class="entry-post" id="CS14">
+						<header class="entry-header">
+							<h2 class="entry-title">
+								
+								<!-- <a href="/papers/2014-08-01-FlightAssembledArchitecture.html">The Flight Assembled Architecture Installation: Cooperative construction with flying machines </a> -->
+								The Flight Assembled Architecture Installation: Cooperative construction with flying machines 
+								
+							</h2>
+							<div class="meta-line clearfix">
+								<div class="meta-author-category pull-left">
+									<span class="post-author">Federico Augugliaro, Sergei Lupashin, Michael Hamer, Cason Male, Markus Hehn, Mark W. Mueller, Jan Willmann, Fabio Gramazio, Matthias Kohler, and Raffaello D’Andrea</span>
+								</div>
+							</div>
+						</header>
+						<div class="entry-content clearfix">
+							<div class="row">
+								<div class="col-sm-4">
+									
+									<div class="featured-video">
+										<div class="post-date-info clearfix"><span class="post-month">IEEE Control Systems</span><span class="post-year">2014</span></div>
+										<div class="aspect-ratio" style="padding-bottom:56.25%">
+											<iframe src="https://player.vimeo.com/video/33713231?title=0&byline=0&portrait=0" allowfullscreen></iframe>
+										</div>
+									</div>
+									
+								</div>
+								<div class="col-sm-8">
+									<div class="abstract">
+										<p>The art installation “Flight Assembled Architecture” is one of the first structures built by flying vehicles. Culminating in a 6m-tall tower composed of 1500 foam modules, the installation was assembled by four quadrocopters in 18 hours during a four-day-long live exhibition at the Regional Contemporary Art Fund Center in Orléans, France. This article documents the design and development of specific elements of the autonomous system behind this one-of-a-kind installation and describes the process and challenges of bringing such a complex system out of the laboratory and into the public realm, where live demonstration and human-in-the-loop interaction demand high levels of robustness, dependability, and safety. The installation is a 1:100 scale model of what was originally conceived as a 600 m-high vertical village and is an exploration of aerial construction in architecture.</p>
+
+										<p class="read-more">
+											
+											
+											
+												<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6853477" class="btn btn-primary">Download <i class="fa fa-long-arrow-down"></i></a>
+											
+											
+											
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+					<!-- end blog post -->
+					<hr />
+					
+					<!-- blog post -->
+					<article class="entry-post" id="IROS13">
+						<header class="entry-header">
+							<h2 class="entry-title">
+								
+								<!-- <a href="/papers/2013-11-01-IROS2013.html">Knowledge Transfer for High-Performance Quadrocopter Maneuvers</a> -->
+								Knowledge Transfer for High-Performance Quadrocopter Maneuvers
+								
+							</h2>
+							<div class="meta-line clearfix">
+								<div class="meta-author-category pull-left">
+									<span class="post-author">Michael Hamer, Markus Waibel and Raffaello D’Andrea</span>
+								</div>
+							</div>
+						</header>
+						<div class="entry-content clearfix">
+							<div class="row">
+								<div class="col-sm-4">
+									
+									<div class="featured-video">
+										<div class="post-date-info clearfix"><span class="post-month">IROS</span><span class="post-year">2013</span></div>
+										<div class="aspect-ratio" style="padding-bottom:56.25%">
+											<iframe src="https://www.youtube.com/embed/IZTP7h5cfqg" allowfullscreen></iframe>
+										</div>
+									</div>
+									
+								</div>
+								<div class="col-sm-8">
+									<div class="abstract">
+										<p>Iterative Learning Control algorithms are based on the premise that “practice makes perfect”. By iteratively performing an action, repetitive errors can be learned and accounted for in subsequent iterations, in a non-causal and feed-forward manner. This method has been previously implemented for a quadrocopter system, enabling the quadrocopter to learn to accurately track high-performance slalom trajectories. However, one major limitation of this system is that knowledge from previously learned trajectories is not generalized or transferred to new trajectories; these must be learned from a state of zero experience.</p>
+
+<p>This paper experimentally shows that the major dynamics of the Iterative Learning Control process can be captured by a linear map, trained on previously learned slalom trajectories. This map enables this prior knowledge to be used to improve the initialization of an unseen trajectory. Experimental results show that prediction based on a single prior is enough to reduce the initial tracking error for an unseen trajectory by an order of magnitude.</p>
+
+										<p class="read-more">
+											
+											
+											
+												<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6696580" class="btn btn-primary">Download <i class="fa fa-long-arrow-down"></i></a>
+											
+											
+											
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+					<!-- end blog post -->
+					<hr />
+					
+				</div>
+				<!-- END BLOG ENTRIES -->
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!-- FOOTER -->
+<footer>
+	<div class="container">
+		<div class="row text-center">
+			<ul class="list-inline social-icons">
+				
+				
+				<li class="">
+					<a href="https://github.com/mikehamer"><i class="fa fa-github"></i></a>
+				</li>
+				
+				
+				<li class="">
+					<a href="mailto:mike@mikehamer.info"><i class="fa fa-envelope"></i></a>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+	<!-- COPYRIGHT -->
+	<!-- <div class="text-center copyright">
+		&copy;2015 Mike Hamer. Site generated using <a href="http://jekyllrb.com/">Jekyll</a> and hosted on <a href="https://pages.github.com/">Github Pages</a>.
+	</div> -->
+	<!-- END COPYRIGHT -->
+</footer>
+<!-- END FOOTER -->
+	</div>
+	<!-- END WRAPPER -->
+
+	<!-- JAVASCRIPTS -->
+	<script src="/assets/js/jquery-2.1.1.min.js"></script>
+	<script src="/assets/js/bootstrap.min.js"></script>
+	<script src="/assets/js/plugins/slick/slick.min.js"></script>
+	<script src="/assets/js/plugins/stellar/jquery.stellar.min.js"></script>
+	<script src="/assets/js/plugins/jquery-easypiechart/jquery.easypiechart.min.js"></script>
+	<script src="/assets/js/plugins/autohidingnavbar/jquery.bootstrap-autohidingnavbar.min.js"></script>
+	<script src="/assets/js/repute-scripts.js"></script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-37282589-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</body>
+
+
+</html>
